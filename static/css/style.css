@@ -1,0 +1,155 @@
+/* Global Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #C0C0C0;
+    overflow: hidden;
+    border: 1px solid #C0C0C0;
+}
+
+/* Netscape Window Styles */
+.netscape-window {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+}
+
+/* Title Bar Styles */
+.title-bar {
+    background: linear-gradient(to right, #000080, #1084d0);
+    padding: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.netscape-logo {
+    width: 16px;
+    height: 16px;
+}
+
+.title-bar-text {
+    font-weight: bold;
+    color: white;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.title-bar-controls {
+    margin-left: auto;
+    margin-right: 2px;
+    display: flex;
+}
+
+.title-bar-controls button {
+    width: 16px;
+    height: 14px;
+    border: 1px outset #fff;
+    margin-left: 2px;
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+/* Menu Bar and Toolbar Styles */
+.menu-bar,
+.toolbar,
+.address-bar {
+    padding: 2px;
+    border-bottom: 1px solid #808080;
+    box-shadow: 0 1px 0 white;
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar span,
+.text-toolbar span,
+.address-bar span {
+    font-size: 12px;
+}
+
+.menu-bar span {
+    margin: 0 5px;
+}
+
+/* Symbol Toolbar Styles */
+.symbol-toolbar {
+    justify-content: space-between;
+}
+
+.symbol-toolbar button {
+    width: 50px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.symbol-toolbar img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Text Toolbar Styles */
+.text-toolbar {
+    justify-content: flex-start;
+}
+
+.text-toolbar span {
+    margin-right: 20px;
+}
+
+.text-toolbar img,
+.address-bar img {
+    margin-right: 5px;
+}
+
+/* Address Bar Styles */
+.address-bar input {
+    flex-grow: 1;
+    border: 1px inset #808080;
+    padding: 1px;
+    font-size: 12px;
+}
+
+/* Content Area Styles */
+.content-area {
+    flex-grow: 1;
+    border: 2px inset #808080;
+    background-color: #000033;
+    overflow: auto;
+    display: flex;
+}
+
+/* Status Bar Styles */
+.status-bar {
+    padding: 2px;
+    border-top: 1px solid #808080;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.status-bar div {
+    border: 1px solid #868686;
+    margin-left: 2px;
+}
+
+.status-icons img {
+    transform: translateY(25%);
+}
+
+.document-done {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.empty {
+    padding-right: 15%;
+}
